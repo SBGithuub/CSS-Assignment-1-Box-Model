@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    font-family: "Ubuntu", serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-color: gray; */
+}
+
+body{
+    background-color: gray;
+}
+.card-content{
+    background-color: white;
+    width: 500px;
+    border: 1px solid rgb(179, 180, 182);
+    margin: 100px auto;
+    padding: 50px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.img-card{
+    width: 100px;
+}
+
+.btn{
+    width: 400px;
+    margin: 20px auto;
+}
+
+button{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: white;
+    text-align: left;
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+button img{
+    margin-right: 10px;
+}
+
+.arrow{
+    margin-left: 250px;
+}
+
+.arrow1{
+    margin-left: 218px;
+}
+
+button:focus{
+    background-color: rgb(220, 222, 226);
+}
